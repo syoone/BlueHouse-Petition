@@ -1,5 +1,5 @@
 ```python
-#Open-Knowledge-Korea/covid-19-our-memory
+# Open-Knowledge-Korea/covid-19-our-memory
 # https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/master/code/society/blue-house-petition-analysis/%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90_%ED%81%AC%EB%A1%A4%EB%A7%81.ipynb
 # 청와대 홈페이지 크롤링 코드
 ```
@@ -179,11 +179,11 @@ df.describe()
     </tr>
     <tr>
       <th>top</th>
-      <td>서비스 종사자 마스크 착용</td>
+      <td>중국에서시작한 '우한폐렴' 코로나바이러스  한국에퍼지지않도록해주세요</td>
       <td>2020-02-03</td>
       <td>2020-03-04</td>
-      <td>21,242</td>
-      <td>https://www1.president.go.kr/petitions/584595</td>
+      <td>553</td>
+      <td>https://www1.president.go.kr/petitions/584598</td>
     </tr>
     <tr>
       <th>freq</th>
@@ -252,11 +252,11 @@ df.describe()
     </tr>
     <tr>
       <th>top</th>
-      <td>중국 우한 폐렴/코로나- 입국금지 및 송환요청.</td>
+      <td>코로나바이러스(우한 폐렴)</td>
       <td>2020-02-03</td>
       <td>2020-03-04</td>
-      <td>243</td>
-      <td>https://www1.president.go.kr/petitions/585011</td>
+      <td>553</td>
+      <td>https://www1.president.go.kr/petitions/588060</td>
     </tr>
     <tr>
       <th>freq</th>
@@ -405,7 +405,7 @@ for n in tqdm_notebook(petition.index):
     content.append(''.join(content_split))
 ```
 
-    <ipython-input-11-483b971a908c>:11: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+    <ipython-input-13-a23a5f3a6f0a>:11: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
     Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
       for n in tqdm_notebook(petition.index):
 
